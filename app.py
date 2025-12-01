@@ -16,9 +16,8 @@ from datetime import datetime
 # ========================================
 # CONFIGURATION - SET THESE
 # ========================================
-#OPENAI_API_KEY = "your-openai-api-key-here"
-OPENAI_API_KEY = "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"
-MONGODB_URI = "mongodb+srv://alinagyk06_db_user:09j5rxBURu0mYgfF@alinahykpersonal.57e5hq.mongodb.net/?appName=AlinaHykPersonal"
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
+MONGODB_URI = st.secrets["MONGODB_URI"]
 DATABASE_NAME = "rag_chatbot"
 EMBEDDINGS_COLLECTION = "embeddings"
 USERS_COLLECTION = "users"
