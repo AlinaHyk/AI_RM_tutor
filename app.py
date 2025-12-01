@@ -726,7 +726,7 @@ def show_chat_page():
     with col1:
         st.markdown(f"**ID:** `{st.session_state.user_id}`")
     with col2:
-        st.markdown('<h1 class="main-header" style="font-size: 2rem;">RAG Chatbot</h1>', unsafe_allow_html=True)
+        st.markdown('<h1 class="main-header" style="font-size: 2rem;">Your Research Methods AI Tutor</h1>', unsafe_allow_html=True)
     with col3:
         if st.button("Logout"):
             # Save to MongoDB before logout
