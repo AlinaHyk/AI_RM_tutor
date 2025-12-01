@@ -564,8 +564,8 @@ Provide a helpful answer following the user's preferences."""
 # ========================================
 def show_login_page():
     """Display the login/registration page"""
-    st.markdown('<h1 class="main-header">RAG Chatbot</h1>', unsafe_allow_html=True)
-    st.markdown('<p class="sub-header">Your personalized document assistant</p>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">Research Methods AI Tutor</h1>', unsafe_allow_html=True)
+    st.markdown('<p class="sub-header">Your personalized tutor</p>', unsafe_allow_html=True)
     
     col1, col2, col3 = st.columns([1, 2, 1])
     
